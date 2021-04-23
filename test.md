@@ -1,6 +1,6 @@
-```um1
-@startum1
+```uml
+@startuml
 Alice -> Bob: Request
 Bob --> Alice: Respones
-@endum1
+@enduml
 ```
