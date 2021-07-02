@@ -10,6 +10,7 @@
 
 ### d_purchase_detail
 |属性名|型|PK|NN|FK|
+|:---|:-|:-|:-:|:-:|
 |detail_id|bigint(20)|○|○||
 |order_id|bigint(20)|○|◯|○|
 |item_code|int(11)||○||
@@ -18,6 +19,7 @@
 
 ### m_customers
 |属性名|型|PK|NN|FK|
+|:---|:-|:-|:-:|:-:|
 |custmer_code|varchar(50)|○|○||
 |pass|varchar(50)|○|◯|○|
 |name|name|varchar(20)||○||
@@ -29,12 +31,14 @@
 
 ### m_category
 |属性名|型|PK|NN|FK|
+|:---|:-|:-|:-:|:-:|
 |catefory_id|int(11)|○|○||
 |name|varchar(20)||○||
 |reg_date|date||○||
 
 ### m_items
 |属性名|型|PK|NN|FK|
+|:---|:-|:-|:-:|:-:|
 |item_code|int(11)|○|○||
 |item_name|varchar(50)||○||
 |price|int(11)||○||
