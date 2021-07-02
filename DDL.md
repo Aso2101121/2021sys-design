@@ -21,7 +21,7 @@
 |属性名|型|PK|NN|FK|
 |:---|:-|:-|:-:|:-:|
 |custmer_code|varchar(50)|○|○||
-|pass|varchar(50)|○|◯|○|
+|pass|varchar(50)|○|○|○|
 |name|varchar(20)||○||
 |address||○||
 |tel|varchar(20)||○||
