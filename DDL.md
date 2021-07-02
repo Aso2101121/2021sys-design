@@ -22,7 +22,7 @@
 |:---|:-|:-|:-:|:-:|
 |custmer_code|varchar(50)|○|○||
 |pass|varchar(50)|○|◯|○|
-|name|name|varchar(20)||○||
+|name|varchar(20)||○||
 |address||○||
 |tel|varchar(20)||○||
 |mail|varchar(100)||○||
