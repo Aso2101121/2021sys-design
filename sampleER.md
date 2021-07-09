@@ -73,7 +73,7 @@ package "ECサイト" as target_system {
         reg_date
     }
 
-    entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>> MAIN_ENTITY {
+    entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>>{
         + order_id [PK]
         --
         # customer_code [FK]
