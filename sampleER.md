@@ -33,11 +33,6 @@ items          }o--||     category
   https://plantuml.com/ja/skinparam
 '/
 
-!define MASTER_MARK_COLOR Orange 
-!define TRANSACTION_MARK_COLOR DeepSkyBlue
-
-'グラデーションさせる場合 #xx-xx
-!define MAIN_ENTITY #MintCream-MistyRose
 
 /'
   デフォルト色を"skinparam class"で設定します。
