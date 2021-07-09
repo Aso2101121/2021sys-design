@@ -1,5 +1,3 @@
-
-
 ```uml
 
 @startuml
@@ -19,32 +17,6 @@
 /'
   デフォルト色を"skinparam class"で設定します。
 '/
-
-/'
-  テーブルのつながりの記載方法
-  https://qiita.com/murakami-mm/items/4c50d1949a8b10016ef7
-
-    ------   :1
-    ----||   :1 and only 1
-    ----o|   :0 or 1
-    -----{   :many
-    ----|{   :1 or more (1以上)
-    ----o{   :0 or many (0以上)
-
-これだと縦につながる
-customer       |o--o{     order
-order          ||--|{     order_detail
-order_detail    }--||     items
-items          }o--||     category
-
- left    le
- right   ri
- up      up
- down    do
-
-
-'/
-
 skinparam class {
     '図の背景
     BackgroundColor Snow
@@ -71,8 +43,8 @@ package "ECサイト" as target_system {
         del_flag
         reg_date
     }
-    
-     entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>> MAIN_ENTITY {
+
+    entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>> MAIN_ENTITY {
         + order_id [PK]
         --
         # customer_code [FK]
@@ -114,6 +86,30 @@ package "ECサイト" as target_system {
 
 }
 
+/'
+  テーブルのつながりの記載方法
+  https://qiita.com/murakami-mm/items/4c50d1949a8b10016ef7
+
+    ------   :1
+    ----||   :1 and only 1
+    ----o|   :0 or 1
+    -----{   :many
+    ----|{   :1 or more (1以上)
+    ----o{   :0 or many (0以上)
+
+これだと縦につながる
+customer       |o--o{     order
+order          ||--|{     order_detail
+order_detail    }--||     items
+items          }o--||     category
+
+ left    le
+ right   ri
+ up      up
+ down    do
+
+
+'/
 customer       |o-ri-o{     order
 order          ||-ri-|{     order_detail
 order_detail    }-do-||     items
