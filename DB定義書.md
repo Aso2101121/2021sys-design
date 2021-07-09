@@ -2,7 +2,7 @@
 
 ## ER図
 
-[ER図はこちら](https://github.com/masatokg/2021sys-design/blob/main/ER_all.md "ER図はこちら")
+[ER図はこちら](https://github.com/Aso2101121/2021sys-design/blob/main/sampleER.md "ER図はこちら")
 
 ## データベース詳細
 
