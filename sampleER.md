@@ -35,7 +35,8 @@ items          }o--||     category
 'グラデーションさせる場合 #xx-xx
 !define MAIN_ENTITY #MintCream-MistyRose
 
-
+/' MAIN_ENTITY をつけるとグラデーション
+'/
 /'
   図の中で目立たせたいエンティティに着色するための
   色の名前（定数）を定義できます。
