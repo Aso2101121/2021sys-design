@@ -71,11 +71,11 @@ package "ECサイト" as target_system {
         del_flag
         reg_date
     }
-
-    entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>> MAIN_ENTITY {
-        order_id [PK]
+    
+     entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>> MAIN_ENTITY {
+        + order_id [PK]
         --
-        customer_code [FK]
+        # customer_code [FK]
         purchase_date
         total_price
     }
