@@ -119,7 +119,7 @@ package "ECサイト" as target_system {
 customer       |o-ri-o{     order
 order          ||-ri-|{     order_detail
 order_detail    }-do-||     items
-items           }|-le-{     category
+items          }o-le-||     category
 
 
 @enduml
