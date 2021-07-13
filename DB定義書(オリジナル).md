@@ -30,6 +30,7 @@
 |和名|属性名（カラム名）|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
 |顧客コード|customer_code|varchar(50)|〇|〇||
+|端末情報|tanmatu|varchar(50)||||
 |パスワード|pass|varchar(50)||〇|〇|
 |氏名|name|varchar(20)||〇||
 |住所|address|varchar(100)||〇||
@@ -42,6 +43,7 @@
 |和名|属性名（カラム名）|型|PK|NN|FK|
 |:---|:---|:---|:---|:---:|:----:|
 |カテゴリID|category_id|int(11)|〇|〇||
+|端末情報|tanmatu||○||
 |氏名|name|varchar(20)||〇||
 |登録日|reg_date|date||〇||
 
