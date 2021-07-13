@@ -91,6 +91,7 @@ package "ECサイト" as target_system {
         # item_code [FK]
         price
         num
+        total_count
     }
 
 
@@ -110,6 +111,7 @@ package "ECサイト" as target_system {
     entity "カテゴリマスタ" as category <m_category> <<M,MASTER_MARK_COLOR>> {
         + category_id [PK]
         --
+        tanmatu
         name
         reg_date
     }
