@@ -119,6 +119,7 @@ package "ECサイト" as target_system {
 entity "おすすめテーブル" as osusume <d_osusume> <<T,TRANSACTION_MARK_COLOR>> {
         + item_code [PK]
         --
+        total_count
         item_name
         price
         # category_id [FK]
