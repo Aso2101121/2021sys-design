@@ -115,7 +115,18 @@ package "ECサイト" as target_system {
         name
         reg_date
     }
-
+    
+entity "おすすめテーブル" as osusume <d_osusume> <<T,TRANSACTION_MARK_COLOR>> {
+        + item_code [PK]
+        --
+        item_name
+        price
+        # category_id [FK]
+        image
+        detail
+        del_flag
+        reg_date
+    }
 
 }
 
