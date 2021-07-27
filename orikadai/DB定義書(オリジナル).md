@@ -2,7 +2,7 @@
 
 ## ER図
 
-[ER図はこちら](https://github.com/Aso2101121/2021sys-design/blob/main/oriER.md "ER図はこちら")
+[ER図はこちら](https://github.com/Aso2101121/2021sys-design/blob/main/orikadai/oriER.md "ER図はこちら")
 
 ## データベース詳細
 
